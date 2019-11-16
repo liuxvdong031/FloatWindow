@@ -61,7 +61,7 @@
 
 ```
 	dependencies {
-	        compile 'com.github.yhaolpz:FloatWindow:1.1.0'
+	        compile 'com.github.yhaolpz:FloatWindow:1.1.1'
 	}
 ```
 
