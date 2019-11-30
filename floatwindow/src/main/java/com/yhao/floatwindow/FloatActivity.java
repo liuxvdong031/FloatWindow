@@ -7,10 +7,11 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import androidx.annotation.RequiresApi;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.RequiresApi;
 
 /**
  * 用于在内部自动申请权限
@@ -27,7 +28,7 @@ public class FloatActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            requestAlertWindowPermission();
+//            requestAlertWindowPermission();
         }
     }
 
